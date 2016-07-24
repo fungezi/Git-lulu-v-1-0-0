@@ -1,0 +1,503 @@
+[ 2016-07-21T10:12:07+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0028s ]
+
+[ 2016-07-21T10:42:32+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T10:42:48+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T10:43:21+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0004s ]
+
+[ 2016-07-21T10:48:20+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T10:48:20+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+
+[ 2016-07-21T13:02:36+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0008s ]
+
+[ 2016-07-21T13:02:36+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+
+[ 2016-07-21T13:02:50+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T13:02:50+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-07-21T13:04:02+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0004s ]
+
+[ 2016-07-21T13:04:02+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-07-21T13:07:51+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T13:07:51+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-07-21T13:15:12+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0003s ]
+
+[ 2016-07-21T13:15:12+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-07-21T13:16:16+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2016-07-21T13:16:48+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T13:16:48+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-07-21T13:17:46+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0012s ]
+
+[ 2016-07-21T13:17:46+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-07-21T13:28:13+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T13:28:13+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-07-21T13:30:33+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+ERR: 无法加载控制器:Blog
+
+[ 2016-07-21T13:30:46+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/put
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0004s ]
+
+[ 2016-07-21T13:30:46+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/put
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-07-21T13:33:52+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/put
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0004s ]
+
+[ 2016-07-21T13:33:52+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/put
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-07-21T13:46:26+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/put
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T13:46:26+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/put
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-07-21T14:02:38+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/put
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载控制器:Blog
+
+[ 2016-07-21T14:28:05+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/put
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T14:28:05+08:00 ] ::1 /thinkphp-cms/index.php/Admin/blog/put
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+
+[ 2016-07-21T15:03:49+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0008s ]
+
+[ 2016-07-21T15:03:49+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-07-21T15:04:13+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2016-07-21T15:04:13+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-07-21T15:04:40+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0006s ]
+
+[ 2016-07-21T15:05:12+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: title /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Admin/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: content /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Admin/Controller/IndexController.class.php 第 15 行.
+
+[ 2016-07-21T15:23:05+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: title /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Admin/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: content /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Admin/Controller/IndexController.class.php 第 15 行.
+
+[ 2016-07-21T15:23:20+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: title /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Admin/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: content /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Admin/Controller/IndexController.class.php 第 15 行.
+
+[ 2016-07-21T15:28:45+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2016-07-21T15:31:15+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0003s ]
+
+[ 2016-07-21T15:32:40+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T15:34:40+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T15:36:50+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0003s ]
+
+[ 2016-07-21T15:36:50+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-07-21T15:40:32+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `article` ORDER BY aid LIMIT 10   [ RunTime:0.0002s ]
+
+[ 2016-07-21T15:40:32+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+
+[ 2016-07-21T15:41:48+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+
+[ 2016-07-21T15:42:00+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-07-21T17:07:50+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: title /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Admin/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: content /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Admin/Controller/IndexController.class.php 第 15 行.
+
+[ 2016-07-21T17:13:45+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/article/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: title /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Admin/Controller/ArticleController.class.php 第 14 行.
+NOTIC: [8] Undefined index: content /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Admin/Controller/ArticleController.class.php 第 15 行.
+
+[ 2016-07-21T19:20:47+08:00 ] ::1 /thinkphp-cms/index.php/Admin/v1/user/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+ERR: 无法加载控制器:User
+

@@ -1,0 +1,18 @@
+[ 2016-07-24T12:34:28+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+ERR: 无法加载模块:V1
+
+[ 2016-07-24T12:35:53+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+ERR: 无法加载模块:V1
+
+[ 2016-07-24T12:37:02+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/loginn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+ERR: 无法加载模块:V1
+
