@@ -1,0 +1,1032 @@
+[ 2016-09-04T09:53:16+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-09-04T10:02:19+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0028s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-09-04T10:39:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0001s ]
+
+[ 2016-09-04T11:06:11+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0004s ]
+
+[ 2016-09-04T11:06:26+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0003s ]
+
+[ 2016-09-04T11:09:38+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0004s ]
+
+[ 2016-09-04T11:10:11+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0001s ]
+
+[ 2016-09-04T11:10:23+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2016-09-04T11:10:33+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-09-04T11:13:22+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T11:13:22+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2016-09-04T11:13:32+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-09-04T11:21:05+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-09-04T11:21:28+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0003s ]
+ERR: Call to undefined function Admin\Controller\response()
+
+[ 2016-09-04T11:22:02+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0005s ]
+
+[ 2016-09-04T11:23:33+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T11:23:34+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0004s ]
+
+[ 2016-09-04T11:25:37+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T11:26:10+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T11:30:13+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','1','2')  [ RunTime:0.0002s ]
+
+[ 2016-09-04T11:32:07+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T17:12:05+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0021s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0013s ]
+
+[ 2016-09-04T17:12:05+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0006s ]
+
+[ 2016-09-04T17:13:33+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T17:13:33+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T17:14:05+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T17:14:05+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T17:15:26+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T17:15:26+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T17:16:19+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T17:16:19+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0015s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+
+[ 2016-09-04T17:20:16+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T17:20:16+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T17:38:29+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T17:38:29+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+
+[ 2016-09-04T17:39:50+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T17:39:50+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T19:01:20+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T19:01:20+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T19:03:27+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0001s ]
+
+[ 2016-09-04T19:03:27+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T19:21:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T19:21:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0016s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+
+[ 2016-09-04T19:44:52+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T19:44:52+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T19:51:23+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T19:51:23+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T20:05:13+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T20:05:13+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0002s ]
+
+[ 2016-09-04T20:05:27+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T20:05:27+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T20:07:03+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T20:07:03+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T20:28:43+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T20:28:43+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+
+[ 2016-09-04T20:29:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T20:29:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T21:27:26+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0003s ]
+
+[ 2016-09-04T21:33:20+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0003s ]
+
+[ 2016-09-04T21:37:41+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0003s ]
+
+[ 2016-09-04T21:38:04+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0003s ]
+
+[ 2016-09-04T21:38:50+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0003s ]
+
+[ 2016-09-04T21:41:55+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T21:42:12+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T21:46:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-09-04T21:46:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0035s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+
+[ 2016-09-04T21:46:59+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0004s ]
+
+[ 2016-09-04T21:46:59+08:00 ] ::1 /thinkphp-cms/index.php/v1/admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT `authid`,`authname`,`authpid` FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','1','2')  [ RunTime:0.0003s ]
+

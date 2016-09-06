@@ -1,0 +1,522 @@
+[ 2016-08-28T10:29:05+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+ERR: syntax error, unexpected '$commentModel' (T_VARIABLE)
+
+[ 2016-08-28T10:30:10+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+
+[ 2016-08-28T10:31:37+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0019s ]
+NOTIC: [2] Missing argument 1 for Think\Model::getField(), called in /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php on line 34 and defined /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/thinkphp/Library/Think/Model.class.php 第 924 行.
+NOTIC: [8] Undefined variable: field /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/thinkphp/Library/Think/Model.class.php 第 925 行.
+NOTIC: [8] Undefined variable: field /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/thinkphp/Library/Think/Model.class.php 第 936 行.
+SQL: SELECT * FROM `comment` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-08-28T10:33:14+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0018s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-08-28T17:01:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0018s ]
+SQL: INSERT INTO `comment` (`pid`,`content`,`artid`) VALUES ('1','fsdfsdf','1') [ RunTime:0.0010s ]
+
+[ 2016-08-28T17:03:47+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0019s ]
+SQL: INSERT INTO `comment` (`pid`,`content`,`artid`,`username`) VALUES ('1','大师大师答','1','rrrrr') [ RunTime:0.0010s ]
+
+[ 2016-08-28T17:14:00+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0021s ]
+SQL: INSERT INTO `comment` (`pid`,`content`,`artid`,`username`) VALUES ('1','rerefdf','1','rerer') [ RunTime:0.0008s ]
+
+[ 2016-08-28T17:15:48+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `comment` (`pid`,`content`,`artid`,`username`) VALUES ('1','gfgfgfg','1','dsdsd') [ RunTime:0.0006s ]
+
+[ 2016-08-28T17:17:42+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0029s ]
+SQL: INSERT INTO `comment` (`pid`,`content`,`artid`,`username`) VALUES ('1','gfgfgf','1','dsdsdfdf') [ RunTime:0.0007s ]
+
+[ 2016-08-28T17:19:00+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0027s ]
+SQL: INSERT INTO `comment` (`pid`,`content`,`artid`,`username`) VALUES ('1','dshajdhajksdklasd','1','CCCC') [ RunTime:0.0011s ]
+
+[ 2016-08-28T17:19:44+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0024s ]
+SQL: INSERT INTO `comment` (`pid`,`content`,`artid`,`username`) VALUES ('1','OJOJJOJOJOJOJ','1','YYYYY') [ RunTime:0.0008s ]
+
+[ 2016-08-28T17:24:07+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0015s ]
+
+[ 2016-08-28T17:24:43+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?aid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0026s ]
+
+[ 2016-08-28T17:25:24+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0022s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-08-28T17:29:44+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0037s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+
+[ 2016-08-28T17:30:21+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0026s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001814s ]
+
+[ 2016-08-28T17:30:38+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0029s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2016-08-28T17:32:41+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0027s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2016-08-28T17:33:22+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0027s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0004s ]
+ERR: Call to undefined function Home\Controller\printf_r()
+
+[ 2016-08-28T17:43:36+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0020s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2016-08-28T17:44:54+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0027s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001678s ]
+
+[ 2016-08-28T17:47:02+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0023s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-08-28T17:47:51+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0014s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-08-28T17:49:12+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0022s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2016-08-28T17:49:15+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0012s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+NOTIC: [8] Undefined index: id /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-08-28T17:49:50+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0022s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-08-28T17:50:00+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0033s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-08-28T17:51:36+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0023s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-08-28T17:52:10+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0012s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-08-28T17:53:09+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0029s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2016-08-28T17:54:47+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0027s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0005s ]
+
+[ 2016-08-28T18:03:41+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0028s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0004s ]
+
+[ 2016-08-28T18:03:54+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0016s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-08-28T18:04:43+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0016s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-08-28T18:07:08+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0025s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0002s ]
+
+[ 2016-08-28T18:07:56+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0019s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0005s ]
+
+[ 2016-08-28T18:08:57+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0019s ]
+SQL: SELECT `cid`,`pid`,`artid`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-08-28T18:10:53+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0028s ]
+SQL: SELECT `cid`,`pid`,`artid`,`username`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0004s ]
+
+[ 2016-08-28T18:11:47+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0026s ]
+SQL: SELECT `cid`,`pid`,`artid`,`username`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-08-28T18:12:10+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0015s ]
+SQL: SELECT `cid`,`pid`,`artid`,`username`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-08-28T18:13:18+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0016s ]
+SQL: SELECT `cid`,`pid`,`artid`,`username`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-08-28T18:13:30+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `comment` (`pid`,`content`,`artid`,`username`) VALUES ('4','fdsfsdf','1','fdfsdfs') [ RunTime:0.0013s ]
+
+[ 2016-08-28T18:13:39+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0014s ]
+SQL: SELECT `cid`,`pid`,`artid`,`username`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0004s ]
+
+[ 2016-08-28T18:13:58+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0037s ]
+SQL: INSERT INTO `comment` (`pid`,`content`,`artid`,`username`) VALUES ('7','zheshishdjasdas','1','yuxili') [ RunTime:0.0008s ]
+
+[ 2016-08-28T18:14:01+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0012s ]
+SQL: SELECT `cid`,`pid`,`artid`,`username`,`content` FROM `comment` WHERE ( artid=1 )  [ RunTime:0.0002s ]
+

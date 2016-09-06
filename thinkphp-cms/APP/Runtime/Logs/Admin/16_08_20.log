@@ -1,0 +1,59 @@
+[ 2016-08-20T10:55:14+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0147s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0049s ]
+
+[ 2016-08-20T11:06:54+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-20T17:38:18+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=0&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT u.roleid FROM `user` `u` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0017s ]
+SQL: SELECT `roleam` FROM `role` WHERE `roleid` IN ('1','2')  [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,4   [ RunTime:0.0018s ]
+
+[ 2016-08-20T17:38:25+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?aid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT u.roleid FROM `user` `u` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0012s ]
+SQL: SELECT `roleam` FROM `role` WHERE `roleid` IN ('1','2')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `article` WHERE ( aid=27 )  [ RunTime:0.0028s ]
+
+[ 2016-08-20T17:38:25+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0002s ]
+

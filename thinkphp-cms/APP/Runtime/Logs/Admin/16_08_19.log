@@ -1,0 +1,635 @@
+[ 2016-08-19T10:47:42+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0045s ]
+SQL: SELECT `parentid`,`cid`,`cname` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-19T11:32:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: INSERT INTO `category` (`cname`,`parentid`,`description`) VALUES ('das','0','fdsf') [ RunTime:0.0025s ]
+
+[ 2016-08-19T11:38:33+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T11:38:56+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T11:41:11+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0019s ]
+
+[ 2016-08-19T11:41:44+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0013s ]
+SQL: INSERT INTO `category` (`cname`,`parentid`,`description`) VALUES ('ccc','0','dssd') [ RunTime:0.0007s ]
+
+[ 2016-08-19T11:48:13+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T11:48:51+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-19T11:49:40+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T11:50:01+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-19T11:51:09+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-19T11:51:21+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0014s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-19T11:52:51+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T11:54:27+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0021s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-19T12:09:46+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T12:10:03+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: DELETE FROM `category` WHERE `cid` = 1 [ RunTime:0.0009s ]
+
+[ 2016-08-19T12:22:13+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0028s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0004s ]
+
+[ 2016-08-19T12:22:17+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: DELETE FROM `category` WHERE `cid` = 10 [ RunTime:0.0006s ]
+
+[ 2016-08-19T12:28:18+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0021s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T12:28:23+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: DELETE FROM `category` WHERE `cid` = 4 [ RunTime:0.0016s ]
+
+[ 2016-08-19T12:29:30+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0013s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T12:29:33+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+SQL: DELETE FROM `category` WHERE `cid` = 9 [ RunTime:0.0003s ]
+
+[ 2016-08-19T13:58:37+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T13:58:41+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: DELETE FROM `category` WHERE `cid` = 3 [ RunTime:0.0010s ]
+
+[ 2016-08-19T13:59:05+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: INSERT INTO `category` (`cname`,`parentid`,`description`) VALUES ('node','0','nodejs') [ RunTime:0.0007s ]
+
+[ 2016-08-19T14:03:12+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T14:28:06+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T14:28:09+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: DELETE FROM `category` WHERE `cid` = 2 [ RunTime:0.0009s ]
+
+[ 2016-08-19T14:28:42+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T14:29:25+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-19T14:29:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T14:30:09+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T14:30:48+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0028s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T14:32:01+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T14:32:29+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:09:59+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0039s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-19T17:10:09+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/upd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: UPDATE `category` SET `cname`='node1',`parentid`='0',`description`='nodejs' WHERE ( cid = 11 ) [ RunTime:0.0024s ]
+
+[ 2016-08-19T17:10:25+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-19T17:18:20+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:18:26+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/upd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: UPDATE `category` SET `cname`='node12',`parentid`='0',`description`='nodejs' WHERE ( cid = 11 ) [ RunTime:0.0004s ]
+
+[ 2016-08-19T17:19:05+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:19:14+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/upd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: UPDATE `category` SET `cname`='node12',`parentid`='0',`description`='nodejss' WHERE ( cid = 11 ) [ RunTime:0.0004s ]
+
+[ 2016-08-19T17:22:14+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:22:33+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: INSERT INTO `category` (`cname`,`parentid`,`description`) VALUES ('linux','0','服务器') [ RunTime:0.0013s ]
+
+[ 2016-08-19T17:24:03+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:24:53+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/upd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: UPDATE `category` SET `cname`='linux',`parentid`='0',`description`='服务器s' WHERE ( cid = 12 ) [ RunTime:0.0008s ]
+
+[ 2016-08-19T17:26:46+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:33:37+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-19T17:35:16+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0021s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:35:20+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: DELETE FROM `category` WHERE `cid` = 11 [ RunTime:0.0004s ]
+
+[ 2016-08-19T17:42:19+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:42:30+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: INSERT INTO `category` (`cname`,`parentid`,`description`) VALUES ('werer','0','dfssdfsdf') [ RunTime:0.0005s ]
+
+[ 2016-08-19T17:42:42+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: DELETE FROM `category` WHERE `cid` = 13 [ RunTime:0.0008s ]
+
+[ 2016-08-19T17:50:40+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0015s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:51:19+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T18:05:41+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T18:05:52+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=0&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT u.roleid FROM `user` `u` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0015s ]
+SQL: SELECT `roleam` FROM `role` WHERE `roleid` IN ('1','2')  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,4   [ RunTime:0.0003s ]
+
+[ 2016-08-19T18:05:55+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T18:06:03+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: INSERT INTO `category` (`cname`,`parentid`,`description`) VALUES ('eee','0','rrr') [ RunTime:0.0015s ]
+
+[ 2016-08-19T18:06:13+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/upd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: UPDATE `category` SET `cname`='linux2',`parentid`='0',`description`='rrr' WHERE ( cid = 12 ) [ RunTime:0.0010s ]
+
+[ 2016-08-19T18:06:47+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T18:36:06+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-19T18:40:48+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0002s ]
+

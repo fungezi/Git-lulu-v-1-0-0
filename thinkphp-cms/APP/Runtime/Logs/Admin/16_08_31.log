@@ -1,0 +1,237 @@
+[ 2016-08-31T16:54:33+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT u.roleid FROM `user` `u` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT `roleam` FROM `role` WHERE `roleid` IN ('1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-08-31T16:54:37+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0014s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-31T16:54:37+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?aid=31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0012s ]
+SQL: SELECT `roleam` FROM `role` WHERE `roleid` IN ('1','2')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `article` WHERE ( aid=31 )  [ RunTime:0.0003s ]
+
+[ 2016-08-31T16:54:43+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/upd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0018s ]
+SQL: UPDATE `article` SET `title`='lunbo1',`author`='sdas',`content`='&lt;p&gt;fsdfsdfsfsdffdsfsd&lt;img src=&quot;/thinkphp-cms/webblog/admin/ueditor/php/upload/image/20160829/1472461216738894.jpg&quot; alt=&quot;1472461216738894.jpg&quot;/&gt;&lt;/p&gt;',`keywords`='fds',`description`='实的一面：很不起眼的东西，如选择器、单位、函数（方法）',`is_top`='1',`click`='0',`addtime`='2016-08-18',`cid`='15,17' WHERE ( aid=31 ) [ RunTime:0.0012s ]
+
+[ 2016-08-31T16:55:02+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/upd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0023s ]
+SQL: UPDATE `article` SET `title`='lunbo1',`author`='sdas',`content`='&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;strong&gt;fsdfsdfsfsdffdsfsd&lt;/strong&gt;&lt;/span&gt;&lt;img src=&quot;/thinkphp-cms/webblog/admin/ueditor/php/upload/image/20160829/1472461216738894.jpg&quot; alt=&quot;1472461216738894.jpg&quot;/&gt;&lt;/p&gt;',`keywords`='fds',`description`='实的一面：很不起眼的东西，如选择器、单位、函数（方法）',`is_top`='1',`click`='0',`addtime`='2016-08-18',`cid`='15,17' WHERE ( aid=31 ) [ RunTime:0.0008s ]
+
+[ 2016-08-31T16:56:16+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=parentid%2Ccid%2Ccname%2Cdescription
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0014s ]
+SQL: SELECT `parentid`,`cid`,`cname`,`description` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-31T16:56:23+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0002s ]
+
+[ 2016-08-31T17:12:54+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?page=1&num=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT u.roleid FROM `user` `u` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `roleam` FROM `role` WHERE `roleid` IN ('1','2')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author`,`addtime`,`click`,`aid` FROM `article` ORDER BY addtime desc,aid desc LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2016-08-31T17:13:19+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/list?aid=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT u.roleid FROM `user` `u` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0013s ]
+SQL: SELECT `roleam` FROM `role` WHERE `roleid` IN ('1','2')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `article` WHERE ( aid=26 )  [ RunTime:0.0003s ]
+
+[ 2016-08-31T17:13:19+08:00 ] ::1 /thinkphp-cms/index.php/v1/category/list?condition=cid%2Ccname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SELECT `cid`,`cname` FROM `category`  [ RunTime:0.0003s ]
+
+[ 2016-08-31T17:13:41+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/upd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0023s ]
+SQL: UPDATE `article` SET `title`='sdasda',`author`='dsadasdsad',`content`='&lt;p&gt;dsadasda&lt;img src=&quot;/thinkphp-cms/webblog/admin/ueditor/php/upload/image/20160830/1472531132923852.jpg&quot; alt=&quot;1472531132923852.jpg&quot;/&gt;&lt;/p&gt;',`keywords`='dsada',`description`='dsadasdasfdgss',`is_top`='1',`click`='0',`addtime`='2016-08-02',`cid`='28,29,30,31,32,33' WHERE ( aid=26 ) [ RunTime:0.0008s ]
+
+[ 2016-08-31T17:24:55+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/upd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0014s ]
+SQL: UPDATE `article` SET `title`='sdasda',`author`='dsadasdsad',`content`='&lt;p&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;img src=&quot;/thinkphp-cms/webblog/admin/ueditor/php/upload/image/20160830/1472531132923852.jpg&quot; alt=&quot;1472531132923852.jpg&quot;/&gt;&lt;/p&gt;',`keywords`='dsada',`description`='目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明',`is_top`='1',`click`='0',`addtime`='2016-08-02',`cid`='28,29,30,31,32,33' WHERE ( aid=26 ) [ RunTime:0.0014s ]
+
+[ 2016-08-31T17:25:35+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/upd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0025s ]
+SQL: UPDATE `article` SET `title`='目前使用thinkphp框架进行项目开发',`author`='目开发',`content`='&lt;p&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;img src=&quot;/thinkphp-cms/webblog/admin/ueditor/php/upload/image/20160830/1472531132923852.jpg&quot; alt=&quot;1472531132923852.jpg&quot;/&gt;&lt;/p&gt;',`keywords`='目开发的人越来越',`description`='目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明',`is_top`='1',`click`='0',`addtime`='2016-08-02',`cid`='28,29,30,31,32,33' WHERE ( aid=26 ) [ RunTime:0.0046s ]
+
+[ 2016-08-31T17:27:11+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/upd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: UPDATE `article` SET `title`='目前使用thinkphp框架进行项目开发',`author`='目开发',`content`='&lt;p&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: STHeiti; font-size: 14px; line-height: 24px; background-color: rgb(255, 255, 255);&quot;&gt;目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明&lt;/span&gt;&lt;/p&gt;&lt;pre class=&quot;brush:php;toolbar:false&quot;&gt;&amp;lt;?php
+
+//&amp;nbsp;首页控制器
+
+namespace&amp;nbsp;Home\\Controller;
+use&amp;nbsp;Common\\Controller\\AuthController;
+class&amp;nbsp;IndexController&amp;nbsp;extends&amp;nbsp;AuthController&amp;nbsp;{
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;function&amp;nbsp;index(){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//在此处打包所有的数据
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//a.轮播
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$cid&amp;nbsp;=&amp;nbsp;\\I(&amp;quot;get.cid&amp;quot;,&amp;quot;&amp;quot;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$num&amp;nbsp;=&amp;nbsp;\\I(&amp;quot;get.num&amp;quot;,&amp;quot;0,9&amp;quot;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if($cid&amp;nbsp;and&amp;nbsp;$num){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$articleModel&amp;nbsp;=&amp;nbsp;M(&amp;quot;article&amp;quot;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$condition[&amp;#39;cid&amp;#39;]&amp;nbsp;=&amp;nbsp;array(array(&amp;#39;like&amp;#39;,&amp;#39;%,&amp;#39;.$cid.&amp;#39;,%&amp;#39;),array(&amp;#39;like&amp;#39;,$cid.&amp;#39;,%&amp;#39;),array(&amp;#39;like&amp;#39;,&amp;#39;%,&amp;#39;.$cid),$cid,&amp;#39;or&amp;#39;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$lunbo&amp;nbsp;=&amp;nbsp;$articleModel-&amp;gt;where($condition)-&amp;gt;order(&amp;quot;aid&amp;nbsp;desc&amp;quot;)-&amp;gt;limit(4)-&amp;gt;field(&amp;quot;aid,title,author,keywords,content,description,cid&amp;quot;)-&amp;gt;select();
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;foreach($lunbo&amp;nbsp;as&amp;nbsp;$key=&amp;gt;$val){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$lunbo[$key][&amp;#39;firstimg&amp;#39;]&amp;nbsp;=&amp;nbsp;getImgs(html_entity_decode($val[&amp;#39;content&amp;#39;]),0);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$conditiona[&amp;#39;cid&amp;#39;]&amp;nbsp;=&amp;nbsp;array(array(&amp;#39;notlike&amp;#39;,&amp;#39;%,&amp;#39;.$cid.&amp;#39;,%&amp;#39;),array(&amp;#39;notlike&amp;#39;,$cid.&amp;#39;,%&amp;#39;),array(&amp;#39;notlike&amp;#39;,&amp;#39;%,&amp;#39;.$cid),array(&amp;#39;notlike&amp;#39;,$cid),&amp;#39;and&amp;#39;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$artList&amp;nbsp;=&amp;nbsp;$articleModel-&amp;gt;where($conditiona)-&amp;gt;order(&amp;quot;aid&amp;nbsp;desc&amp;quot;)-&amp;gt;field(&amp;quot;aid,title,author,keywords,addtime,click,description,content,cid&amp;quot;)-&amp;gt;limit($num)-&amp;gt;select();
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;foreach($artList&amp;nbsp;as&amp;nbsp;$key=&amp;gt;$val){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$artList[$key][&amp;#39;firstimg&amp;#39;]&amp;nbsp;=&amp;nbsp;getImgs(html_entity_decode($val[&amp;#39;content&amp;#39;]),0);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$res&amp;nbsp;=&amp;nbsp;array(&amp;quot;lunbo&amp;quot;=&amp;gt;$lunbo,&amp;quot;artList&amp;quot;=&amp;gt;$artList);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;response(array(&amp;quot;flag&amp;quot;=&amp;gt;true,&amp;quot;content&amp;quot;=&amp;gt;$res),&amp;quot;json&amp;quot;,200);
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}else{
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;response(array(&amp;quot;flag&amp;quot;=&amp;gt;true,&amp;quot;content&amp;quot;=&amp;gt;&amp;quot;参数不合法&amp;quot;),&amp;quot;json&amp;quot;,200);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;function&amp;nbsp;category(){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;	$cid&amp;nbsp;=&amp;nbsp;\\I(&amp;quot;get.cid&amp;quot;,&amp;quot;&amp;quot;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if($cid){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$articleModel&amp;nbsp;=&amp;nbsp;M(&amp;quot;article&amp;quot;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$condition[&amp;#39;cid&amp;#39;]&amp;nbsp;=&amp;nbsp;array(array(&amp;#39;like&amp;#39;,&amp;#39;%,&amp;#39;.$cid.&amp;#39;,%&amp;#39;),array(&amp;#39;like&amp;#39;,$cid.&amp;#39;,%&amp;#39;),array(&amp;#39;like&amp;#39;,&amp;#39;%,&amp;#39;.$cid),$cid,&amp;#39;or&amp;#39;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$res&amp;nbsp;=&amp;nbsp;$articleModel-&amp;gt;where($condition)-&amp;gt;select();
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if($res){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;foreach($res&amp;nbsp;as&amp;nbsp;$key=&amp;gt;$val){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$res[$key][&amp;#39;content&amp;#39;]&amp;nbsp;=&amp;nbsp;html_entity_decode($val[&amp;#39;content&amp;#39;]);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$res[$key][&amp;#39;firstimg&amp;#39;]&amp;nbsp;=&amp;nbsp;getImgs(html_entity_decode($val[&amp;#39;content&amp;#39;]),0);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;response(array(&amp;quot;flag&amp;quot;=&amp;gt;true,&amp;quot;content&amp;quot;=&amp;gt;$res),&amp;quot;json&amp;quot;,200);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}else{
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;response(array(&amp;quot;flag&amp;quot;=&amp;gt;false,&amp;quot;content&amp;quot;=&amp;gt;&amp;quot;暂时没有文章&amp;quot;),&amp;quot;json&amp;quot;,200);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;function&amp;nbsp;&amp;nbsp;articleList(){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;	$this-&amp;gt;show(&amp;quot;文章列表页&amp;quot;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;function&amp;nbsp;tag(){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;	$this-&amp;gt;show(&amp;quot;标签页&amp;quot;,&amp;quot;utf-8&amp;quot;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;function&amp;nbsp;single(){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;	$aid&amp;nbsp;=&amp;nbsp;\\I(&amp;quot;get.aid&amp;quot;,&amp;quot;&amp;quot;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if($aid){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$articleModel&amp;nbsp;=&amp;nbsp;M(&amp;quot;article&amp;quot;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$res&amp;nbsp;=&amp;nbsp;$articleModel-&amp;gt;where(&amp;quot;aid=&amp;quot;.$aid)-&amp;gt;select();
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if($res){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$res[0][&amp;quot;content&amp;quot;]&amp;nbsp;=&amp;nbsp;html_entity_decode($res[0][&amp;quot;content&amp;quot;]);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;response(array(&amp;quot;flag&amp;quot;=&amp;gt;true,&amp;quot;content&amp;quot;=&amp;gt;$res),&amp;quot;json&amp;quot;,200);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}else{
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;response(array(&amp;quot;flag&amp;quot;=&amp;gt;true,&amp;quot;content&amp;quot;=&amp;gt;&amp;quot;文章不存在&amp;quot;),&amp;quot;json&amp;quot;,200);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}else{
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;response(array(&amp;quot;flag&amp;quot;=&amp;gt;true,&amp;quot;content&amp;quot;=&amp;gt;&amp;quot;参数不合法&amp;quot;),&amp;quot;json&amp;quot;,200);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;function&amp;nbsp;search(){
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;	$this-&amp;gt;show(&amp;quot;搜索页&amp;quot;,&amp;quot;utf-8&amp;quot;);
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+}&lt;/pre&gt;&lt;p&gt;&lt;img src=&quot;/thinkphp-cms/webblog/admin/ueditor/php/upload/image/20160830/1472531132923852.jpg&quot; alt=&quot;1472531132923852.jpg&quot;/&gt;&lt;/p&gt;',`keywords`='目开发的人越来越',`description`='目前使用thinkphp框架进行项目开发的人越来越多了，由于其封装性较好，导致了很多纯PHP开发的部分不易上手，本文实例即以like模糊查询为例对此加以说明',`is_top`='1',`click`='0',`addtime`='2016-08-02',`cid`='28,29,30,31,32,33' WHERE ( aid=26 ) [ RunTime:0.0044s ]
+

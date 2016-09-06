@@ -1,0 +1,18 @@
+[ 2016-09-06T13:17:29+08:00 ] ::1 /thinkphp-cms/index.php/v1/sendemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+ERR: 无法加载模块:V1
+
+[ 2016-09-06T13:49:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/sendMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+ERR: 无法加载模块:V1
+
+[ 2016-09-06T13:51:03+08:00 ] ::1 /thinkphp-cms/index.php/v1/article/sendMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+ERR: 无法加载模块:V1
+

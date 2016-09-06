@@ -17,18 +17,22 @@
 					$name = \I("post.username","");
 					$pwd = \I("post.pwd","");
 					$code = \I("post.code","");
-					if(!$name or !$pwd){
+					$email = \I("post.email","");
+					if(!$name or !$pwd or !$code or !$email){
 						$this->response(array("flag"=>false,"content"=>"传参错误。"),"json",200);
 					}elseif($code=="123"){//$this->checkCode($code,"reg")
 						$userModel = new \User\Model\UserModel();
 						$res = $userModel->addNewUser(array(
 								"uname"=>$name,
-								"upwd"=>$pwd
+								"upwd"=>$pwd,
+								"email"=>$email
 							));
 						if(!$res){
+							
 							$this->response(array("flag"=>false,"content"=>"用户名已被注册"),"json",200);
 						}else{
-							$this->response(array("flag"=>false,"content"=>"注册成功"),"json",200);
+							$email = send_mail($email,$name,"YXL-blog","激活验证码：http://localhost/thinkphp-cms/v1/user/activeCode?username=".$name."&userid=".$res);
+							$this->response(array("flag"=>true,"content"=>"注册成功","email"=>$email),"json",200);
 						}
 					}else{
 						$this->response(array("flag"=>true,"content"=>"验证码错误"),"json",200);
@@ -41,6 +45,18 @@
 			
 		}
 
+		public function activeCode(){
+			$username = \I("get.username","");
+			$userid = \I("get.userid","");
+			if($userid){
+				$userModel = M("user");
+				$res = $userModel->where("uid=".$userid)->save(array("useable"=>1));
+				if($res){
+					echo $username." 用户已经激活";
+				}
+			}
+		}
+
 		public function login(){//登陆
 			switch ($this->_method){
 				case 'post':	
@@ -50,6 +66,7 @@
 					if(!$name or !$pwd){
 						$this->response(array("flag"=>true,"content"=>"参数错误"),"json",200);
 					}elseif($code=="123"){//$this->checkCode($code,"login")
+
 						$userModel = new \User\Model\UserModel();
 						$res = $userModel->loginCheck($name,$pwd);
 						if($res){
