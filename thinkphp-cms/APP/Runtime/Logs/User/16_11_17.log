@@ -1,0 +1,719 @@
+[ 2016-11-17T14:48:43+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/loginCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-11-17T14:49:22+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT `salt` FROM `user` WHERE `uname` = 'PULL' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `uname` = 'PULL' AND `upwd` = '722fbf3f1951d8556f8909e1925c9092' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-17T14:51:04+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/loginCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-11-17T14:51:35+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: INSERT INTO `user` (`uname`,`upwd`,`email`,`salt`) VALUES ('fg','ff47a7274dd46943f891bf7e8bb5827e','293730698@qq.com','>[@Hwll>') [ RunTime:0.0015s ]
+
+[ 2016-11-17T14:51:38+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/loginCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-11-17T18:58:46+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT `salt` FROM `user` WHERE `uname` = 'pull' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `uname` = 'pull' AND `upwd` = '722fbf3f1951d8556f8909e1925c9092' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-11-17T21:25:18+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0005s ]
+
+[ 2016-11-17T21:36:54+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0005s ]
+
+[ 2016-11-17T21:38:28+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/User/Controller/RoleController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `course`  [ RunTime:0.0002s ]
+
+[ 2016-11-17T21:39:45+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/User/Controller/RoleController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0015s ]
+NOTIC: [2] implode(): Invalid arguments passed /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/thinkphp/Library/Think/Db/Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+
+[ 2016-11-17T21:41:14+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/User/Controller/RoleController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0009s ]
+NOTIC: [2] implode(): Invalid arguments passed /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/thinkphp/Library/Think/Db/Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+
+[ 2016-11-17T21:41:42+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0044s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/User/Controller/RoleController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0029s ]
+NOTIC: [2] implode(): Invalid arguments passed /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/thinkphp/Library/Think/Db/Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+
+[ 2016-11-17T21:42:50+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/User/Controller/RoleController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0012s ]
+NOTIC: [2] implode(): Invalid arguments passed /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/thinkphp/Library/Think/Db/Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+
+[ 2016-11-17T21:43:19+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0042s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/User/Controller/RoleController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0027s ]
+NOTIC: [2] implode(): Invalid arguments passed /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/thinkphp/Library/Think/Db/Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+
+[ 2016-11-17T21:43:42+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/User/Controller/RoleController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0020s ]
+NOTIC: [2] implode(): Invalid arguments passed /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/thinkphp/Library/Think/Db/Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+
+[ 2016-11-17T21:43:58+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/User/Controller/RoleController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0013s ]
+NOTIC: [2] implode(): Invalid arguments passed /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/thinkphp/Library/Think/Db/Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `question` WHERE `courseId` IN () 
+
+[ 2016-11-17T21:44:57+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('2','3','4')  [ RunTime:0.0005s ]
+
+[ 2016-11-17T21:56:05+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('2','3','4')  [ RunTime:0.0003s ]
+
+[ 2016-11-17T21:56:30+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('2','3','4')  [ RunTime:0.0003s ]
+
+[ 2016-11-17T21:58:00+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/User/Controller/RoleController.class.php 第 85 行.
+SQL: UPDATE `user` SET `courseId`='Array5' WHERE ( uid=3 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('Array5')  [ RunTime:0.0003s ]
+
+[ 2016-11-17T21:59:32+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `courseId`='3' WHERE ( uid=3 ) [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('3')  [ RunTime:0.0003s ]
+
+[ 2016-11-17T21:59:42+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `courseId`='35' WHERE ( uid=3 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('35')  [ RunTime:0.0003s ]
+
+[ 2016-11-17T22:00:17+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `courseId`=',2' WHERE ( uid=3 ) [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2')  [ RunTime:0.0006s ]
+
+[ 2016-11-17T22:00:19+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `courseId`=',2,4' WHERE ( uid=3 ) [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','4')  [ RunTime:0.0002s ]
+
+[ 2016-11-17T22:10:03+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','4')  [ RunTime:0.0002s ]
+
+[ 2016-11-17T22:10:06+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `courseId`=',2,4,5' WHERE ( uid=3 ) [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','4','5')  [ RunTime:0.0002s ]
+
+[ 2016-11-17T22:10:08+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `courseId`=',2,4,5,3' WHERE ( uid=3 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','4','5','3')  [ RunTime:0.0002s ]
+
+[ 2016-11-17T22:10:09+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','4','5','3')  [ RunTime:0.0002s ]
+
+[ 2016-11-17T22:10:38+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `courseId`=',3' WHERE ( uid=3 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','3')  [ RunTime:0.0002s ]
+
+[ 2016-11-17T22:12:33+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `courseId`=',2' WHERE ( uid=3 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2')  [ RunTime:0.0005s ]
+
+[ 2016-11-17T22:12:36+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `courseId`=',2,3' WHERE ( uid=3 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','3')  [ RunTime:0.0002s ]
+
+[ 2016-11-17T22:12:38+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `courseId`=',2,3,4' WHERE ( uid=3 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','3','4')  [ RunTime:0.0002s ]
+
+[ 2016-11-17T22:12:39+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `courseId`=',2,3,4,5' WHERE ( uid=3 ) [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','3','4','5')  [ RunTime:0.0002s ]
+
+[ 2016-11-17T22:12:55+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','3','4','5')  [ RunTime:0.0001s ]
+
+[ 2016-11-17T22:15:12+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','3','4','5')  [ RunTime:0.0004s ]
+
+[ 2016-11-17T22:15:17+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','3','4','5')  [ RunTime:0.0004s ]
+
+[ 2016-11-17T22:16:10+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','3','4','5')  [ RunTime:0.0007s ]
+
+[ 2016-11-17T22:16:38+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','4','5')  [ RunTime:0.0003s ]
+
+[ 2016-11-17T22:16:41+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `courseId`=',2,4,5,3' WHERE ( uid=3 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','4','5','3')  [ RunTime:0.0002s ]
+
+[ 2016-11-17T22:16:54+08:00 ] ::1 /thinkphp-cms/index.php/v1/role/selectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT u.roleid FROM `user` `u` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `role` WHERE `roleid` IN ('2','3')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth` WHERE `authid` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','1','2')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `courseId` FROM `user` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `question` WHERE `courseId` IN ('','2','4','5','3')  [ RunTime:0.0002s ]
+

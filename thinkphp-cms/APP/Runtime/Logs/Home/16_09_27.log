@@ -1,0 +1,42 @@
+[ 2016-09-27T12:22:00+08:00 ] ::1 /thinkphp-cms/index.php/v1/index/index?cid=15&num=0%2C9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0024s ]
+SQL: SELECT `aid`,`title`,`author`,`keywords`,`content`,`description`,`cid` FROM `article` WHERE ( `cid` LIKE '%,15,%' OR `cid` LIKE '15,%' OR `cid` LIKE '%,15' OR `cid` = '15' ) ORDER BY aid desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT `aid`,`title`,`author`,`keywords`,`addtime`,`click`,`description`,`content`,`cid` FROM `article` WHERE ( `cid` NOT LIKE '%,15,%' AND `cid` NOT LIKE '15,%' AND `cid` NOT LIKE '%,15' AND `cid` NOT LIKE '15'  ) ORDER BY aid desc LIMIT 0,9   [ RunTime:0.0011s ]
+
+[ 2016-09-27T12:22:07+08:00 ] ::1 /thinkphp-cms/index.php/v1/index/single?aid=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `article` WHERE ( aid=32 )  [ RunTime:0.0002s ]
+
+[ 2016-09-27T12:22:07+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/list?artid=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0019s ]
+SQL: SELECT `cid`,`pid`,`artid`,`username`,`content` FROM `comment` WHERE ( artid=32 )  [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/XAMPP/xamppfiles/htdocs/thinkphp-cms/APP/Home/Controller/CommentController.class.php 第 9 行.
+
+[ 2016-09-27T12:56:38+08:00 ] ::1 /thinkphp-cms/index.php/v1/comment/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0017s ]
+SQL: INSERT INTO `comment` (`pid`,`content`,`artid`,`username`) VALUES ('0','dasda','32','dsd ') [ RunTime:0.0008s ]
+

@@ -39,6 +39,7 @@ return array(
         'v1/role/add'=>'user/role/index',
         'v1/role/list'=>'user/role/index',
         'v1/role/upd'=>'user/role/index',
+        'v1/role/selectCourse'=>'user/role/selectCourse',
         'v1/role/delete'=>'user/role/index',
         'v1/sendmail'=>'admin/article/sendMail',
         'v1/category/list'=>'admin/article/category',
@@ -51,6 +52,12 @@ return array(
         'v1/index/single'=>'home/index/single',
         'v1/index/category'=>'home/index/category',
         'v1/admin/list'=>'admin/admin/index',
+        'v1/exam/add'=>'admin/article/question',
+        'v1/exam/list'=>'admin/article/question',
+        'v1/course/add'=>'admin/article/course',
+        'v1/course/list'=>'admin/article/course',
+        'v1/course/upd'=>'admin/article/course',
+        'v1/course/del'=>'admin/article/course',
     ),
 
 );

@@ -2,20 +2,20 @@
 <div class="row">
 	<div class="col-md-8 col-md-offset-1">
 		<form id="addArt" action="localhost/thinkphp-cms/index.php/v1/article/add" method="POST">
-			  <div class="form-group">
+			  <!-- <div class="form-group">
 				    <label for="exampleInputEmail1">文章标题</label>
 				    <input type="text" name="title" class="form-control" id="exampleInputEmail1" placeholder="标题">
 				    <input type="hidden" name="aid" class="form-control" id="exampleInputEmail0" placeholder="标题">
-			  </div>
+			  </div> -->
 			  <div class="form-group">
 				    <label for="exampleInputPassword1">作者</label>
 				    <input type="text" name="author" class="form-control" id="exampleInputPassword1" placeholder="作者">
 			  </div>
 
-			  <div class="form-group">
+			  <!-- <div class="form-group">
 				    <label for="exampleInputPassword2">文章关键字</label>
 				    <input type="text" name="keywords" class="form-control" id="exampleInputPassword2" placeholder="文章关键字">
-			  </div>
+			  </div> -->
 
 			  <div class="form-group" style="position:relative">
 				    <label for="exampleInputPassword5">发表时间</label>
@@ -41,19 +41,19 @@
 			  </div>
 
 			  <div class="form-group">
-				    <label for="exampleInputPassword3">文章描述</label>
+				    <label for="exampleInputPassword3">题目描述</label>
 				    <input type="text" name="description" class="form-control" id="exampleInputPassword3" placeholder="文章描述">
 			  </div>
 
-			  <label class="radio-inline">
+			  <!-- <label class="radio-inline">
 				  <input type="radio" name="is_top" id="inlineRadio1" value="1">置顶
-			  </label>
-				<label class="radio-inline">
+			  </label> -->
+				<!-- <label class="radio-inline">
 				  <input type="radio" name="is_top" id="inlineRadio2" value="0" checked> 不置顶(默认)
-				</label>
+				</label> -->
 
 			  <div class="checkbox catecb">
-			  	<h3 style="font-size:14px;margin-bottom:0px">选择分类</h3><br>
+			  	<h3 style="font-size:14px;margin-bottom:0px">题目分类</h3><br>
 			    	<!-- <label>
 				      	<input name="cid[]" type="checkbox" value="1"> 分类1
 				    </label>

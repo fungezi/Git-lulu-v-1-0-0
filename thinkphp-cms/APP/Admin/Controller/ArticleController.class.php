@@ -203,4 +203,137 @@ class ArticleController extends AuthController {
             break;
         }
     }
+
+    public function course(){
+        switch ($this->_method){
+            case "get":
+                $condition = \I("get.condition","");
+                $category = M("course");
+                if($condition){
+                    $res = $category->field($condition)->select();
+                }else{
+                    $res = $category->select();
+                }
+                
+                if($res){
+                    $this->response(array("flag"=>true,"content"=>$res),"json",200);
+                }else{
+                    $this->response(array("flag"=>true,"content"=>"查询出错"),"json",200);
+                }
+                
+            break;
+            case "post":
+                $category = M("course");
+                $name = \I("post.cname","");
+                if($name){
+                    $data = array(
+                        "cname"=>$name,
+                        "description"=>\I("post.description",""),
+                    );
+                    $res = $category->add($data);
+                    if($res){
+                        $this->response(array("flag"=>true,"content"=>"分类添加成功","cid"=>$res),"json",200);
+                    }else{
+                        $this->response(array("flag"=>true,"content"=>"分类添加失败"),"json",200);
+                    }
+                }else{
+                    $this->response(array("flag"=>true,"content"=>"传参出错"),"json",200);
+                }
+                
+            break;
+            case "delete":
+                parse_str(file_get_contents('php://input'), $input);
+                $input = array_map_recursive(C('DEFAULT_FILTER'), $input);
+                $cid = ((int) ($input['cid']));
+                if($cid){
+                    $category = M("course");
+                    $res = $category->delete($cid);
+                    if($res){
+                        $this->response(array("flag"=>true,"content"=>"删除成功"),"json",200);
+                    }else{
+                        $this->response(array("flag"=>false,"content"=>"删除失败"),"json",200);
+                    }
+                }else{
+                    $this->response(array("flag"=>true,"content"=>"传参错误"),"json",200);
+                }
+            break;
+            case "put":
+                $category = M("course");
+                $name = \I("put.cname","");
+                $cid = \I("put.cid","");
+                if($name or $cid){
+                    $data = array(
+                        "cname"=>$name,
+                        "parentid"=>\I("put.pid",""),
+                        "description"=>\I("put.description",""),
+                    );
+                    $res = $category->where("cid = ".$cid)->save($data);
+                    if($res){
+                        $this->response(array("flag"=>true,"content"=>"分类更新成功"),"json",200);
+                    }else{
+                        $this->response(array("flag"=>true,"content"=>"分类更新失败"),"json",200);
+                    }
+                }else{
+                    $this->response(array("flag"=>true,"content"=>"传参出错"),"json",200);
+                }
+            break;
+            default:
+            break;
+        }
+    }
+
+
+    public function question(){
+        switch ($this->_method){
+            case 'post':
+                $data = $_POST;
+                $questionModel = M("question");
+                $articleModel = M("article");
+                if($data){
+                    $examName = $data["examName"];
+                    $cid = $data["cid"];
+                    $data["examName"] = null;
+                    $data["cid"] = null;
+                    $timu = implode(",", $data);
+                    $questionModel->add(array('question' => $timu,'questionName'=>$examName,"courseId"=>$cid));
+                    $this->response(array("flag"=>true,"content"=>"试卷生成成功"),"json",200);
+                }
+                break;
+            case 'get':
+                $articleModel  = M("question");
+                $num = \I("get.num",10);
+                $page = \I("get.page",1);
+                $aid = \I("get.aid","");
+                if($aid){
+                    $condition = "examId=".$aid;
+                    $data = $articleModel->where($condition)->select();
+                    // $data[0]["content"] = html_entity_decode($data[0]["content"]);
+                    $qid = $data[0]["question"];
+                    $qid = explode(",", $qid);
+                    $map["aid"] = array("in",$qid);
+                    $res = M("article")->where($map)->field("content")->select();
+                    $data[0]["question"] = $res;
+                    $this->response(array("flag"=>true,"content"=>$data),"json",200);
+                }else{
+                    $count = $articleModel->count();
+                    $begin = ($page -1) * $num;
+                    $end = $num * $page;
+                    if($count != 0 && $begin< ($count) && $end > ($count)){
+                        $end = $count ;
+                    }else if($count != 0 && $begin> $count){
+                        $this->response(array("flag"=>false,"content"=>"没有文章"),"json",200);
+                    }
+                    $data = $articleModel->order("examId desc")->limit($begin,$end)->field("examId,questionName,question")->select();
+                    if($data){
+                        $this->response(array("flag"=>true,"content"=>$data),"json",200);
+                    }else{
+                        $this->response(array("flag"=>false,"content"=>"暂时还没有文章"),"json",200);
+                    }
+                }
+                break;
+            default:
+                $this->response(array("flag"=>true,"content"=>"default"),"json",200);
+                break;
+        }
+    }
 }

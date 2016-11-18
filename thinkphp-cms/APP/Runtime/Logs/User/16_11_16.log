@@ -1,0 +1,22 @@
+[ 2016-11-16T13:18:47+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/loginCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002015s ]
+
+[ 2016-11-16T13:19:02+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0223s ]
+SQL: SELECT `salt` FROM `user` WHERE `uname` = 'PULL' LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `user` WHERE `uname` = 'PULL' AND `upwd` = '722fbf3f1951d8556f8909e1925c9092' LIMIT 1   [ RunTime:0.0004s ]
+

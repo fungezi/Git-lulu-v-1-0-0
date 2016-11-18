@@ -1,0 +1,46 @@
+[ 2016-09-27T12:18:28+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/loginCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-09-27T12:19:56+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+ERR: 1062:Duplicate entry 'pull' for key 'uname'
+ [ SQL语句 ] : INSERT INTO `user` (`uname`,`upwd`,`email`,`salt`) VALUES ('pull','d79a8e3258809a0225a66738f56ac4ce','2937306985@qq.com','X[FDC5{j')
+ERR: 1062:Duplicate entry 'pull' for key 'uname'
+ [ SQL语句 ] : INSERT INTO `user` (`uname`,`upwd`,`email`,`salt`) VALUES ('pull','d79a8e3258809a0225a66738f56ac4ce','2937306985@qq.com','X[FDC5{j')
+
+[ 2016-09-27T12:20:13+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/loginCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-09-27T12:20:23+08:00 ] ::1 /thinkphp-cms/index.php/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `salt` FROM `user` WHERE `uname` = 'pull' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `uname` = 'pull' AND `upwd` = '722fbf3f1951d8556f8909e1925c9092' LIMIT 1   [ RunTime:0.0001s ]
+

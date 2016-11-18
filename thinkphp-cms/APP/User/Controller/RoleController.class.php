@@ -70,6 +70,26 @@
 			}
 		}
 
+		public function selectCourse(){
+			//选课
+			$cid = \I("post.courseId","");
+			$uid = session("id");
+			$courseId = M("user")->where("uid=".$uid)->field("courseId")->find();
+			$ccid = $courseId["courseid"];
+			// var_dump($courseId);
+
+			$courseId = explode(",", $courseId["courseid"]);
+			if(in_array($cid, $courseId) || !$cid){
+				// return false;
+			}else{
+				$courseId = $ccid.",".$cid;
+				M("user")->where("uid=".$uid)->save(array("courseId"=>$courseId));
+			}
+			$map['courseId'] = array('in',$courseId);
+			$data = M("question")->where($map)->select();
+			$this->response(array("flag"=>true,"content"=>$data),"json",200);
+		}
+
 		protected function getpage($pagenum=1,$num){//分页函数
 			//利用limit来取得数据（limit(n,m)）
 			$roleModel = new \User\Model\RoleModel();
